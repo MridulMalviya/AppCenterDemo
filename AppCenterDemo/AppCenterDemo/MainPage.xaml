@@ -25,33 +25,53 @@
             HorizontalOptions="FillAndExpand"
             Source="banner"
             VerticalOptions="FillAndExpand" />
-        <Grid Grid.Row="3" Margin="40,0">
-            <Grid.GestureRecognizers>
-                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-            </Grid.GestureRecognizers>
-            <Image HorizontalOptions="Center" Source="button1" />
-            <Label
-                FontAttributes="Bold"
-                FontSize="14"
-                HorizontalOptions="Center"
-                Text="Login"
-                TextColor="White"
-                VerticalOptions="Center" />
 
-        </Grid>
-        <Grid Grid.Row="3" Margin="40,0">
-            <Grid.GestureRecognizers>
+        <Image
+            Grid.Row="3"
+            Margin="40,0"
+            HorizontalOptions="Center"
+            Source="button1">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Label
+            Grid.Row="3"
+            FontAttributes="Bold"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Login"
+            TextColor="White"
+            VerticalOptions="Center">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Image
+            Grid.Row="4"
+            Margin="40,0"
+            HorizontalOptions="Center"
+            Source="button2">
+            <Image.GestureRecognizers>
                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
-            </Grid.GestureRecognizers>
-            <Image HorizontalOptions="Center" Source="button2" />
-            <Label
-                FontAttributes="Bold"
-                FontSize="14"
-                HorizontalOptions="Center"
-                Text="Sign up"
-                TextColor="Black"
-                VerticalOptions="Center" />
-        </Grid>
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Label
+            Grid.Row="4"
+            FontAttributes="Bold"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Sign up"
+            TextColor="Black"
+            VerticalOptions="Center">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+            </Label.GestureRecognizers>
+        </Label>
+
         <Label
             Grid.Row="5"
             Margin="0,5"

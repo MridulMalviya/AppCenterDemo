@@ -16,12 +16,16 @@ namespace AppCenterDemo
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new LoginPage());
         }
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
-
+            PerformOverflow();
+        }
+        void PerformOverflow()
+        {
+            PerformOverflow();
         }
     }
 }
