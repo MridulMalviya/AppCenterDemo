@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppCenterDemo.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppCenterDemo">
+
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Image
+            Grid.Row="1"
+            Margin="30,0"
+            HorizontalOptions="Center"
+            Source="header" />
+        <Image
+            Grid.Row="2"
+            Margin="10"
+            HorizontalOptions="FillAndExpand"
+            Source="banner"
+            VerticalOptions="FillAndExpand" />
+        <Grid Grid.Row="3" Margin="40,0">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </Grid.GestureRecognizers>
+            <Image HorizontalOptions="Center" Source="button1" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="14"
+                HorizontalOptions="Center"
+                Text="Login"
+                TextColor="White"
+                VerticalOptions="Center" />
+
+        </Grid>
+        <Grid Grid.Row="3" Margin="40,0">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+            </Grid.GestureRecognizers>
+            <Image HorizontalOptions="Center" Source="button2" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="14"
+                HorizontalOptions="Center"
+                Text="Sign up"
+                TextColor="Black"
+                VerticalOptions="Center" />
+        </Grid>
+        <Label
+            Grid.Row="5"
+            Margin="0,5"
+            FontSize="12"
+            HorizontalOptions="Center"
+            Text="Terms of service"
+            TextColor="LightGray"
+            VerticalOptions="Start" />
+    </Grid>
+
+
+</ContentPage>
