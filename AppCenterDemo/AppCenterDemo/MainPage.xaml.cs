@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AppCenter.Crashes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,11 +22,7 @@ namespace AppCenterDemo
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
-            PerformOverflow();
-        }
-        void PerformOverflow()
-        {
-            PerformOverflow();
+            Crashes.GenerateTestCrash();
         }
     }
 }
