@@ -9,6 +9,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Image
+            AutomationId="browse"
             HorizontalOptions="StartAndExpand"
             Source="browse"
             VerticalOptions="StartAndExpand" />

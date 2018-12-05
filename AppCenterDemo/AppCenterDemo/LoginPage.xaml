@@ -32,6 +32,7 @@
             x:Name="username"
             Grid.Row="3"
             Margin="20,0"
+            AutomationId="username"
             FontSize="14"
             HeightRequest="40"
             HorizontalOptions="FillAndExpand"
@@ -49,8 +50,10 @@
             x:Name="password"
             Grid.Row="5"
             Margin="20,0"
+            AutomationId="password"
             FontSize="14"
             HorizontalOptions="Fill"
+            IsPassword="True"
             Placeholder="Password"
             PlaceholderColor="LightGray"
             TextColor="Black" />
@@ -70,7 +73,7 @@
             FontAttributes="Bold"
             FontSize="14"
             HorizontalOptions="Center"
-            Text="Sign up"
+            Text="Sign in"
             TextColor="White"
             VerticalOptions="Center">
             <Label.GestureRecognizers>
