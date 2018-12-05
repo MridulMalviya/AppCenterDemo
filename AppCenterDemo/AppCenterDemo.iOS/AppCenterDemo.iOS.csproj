@@ -169,4 +169,28 @@
   <ItemGroup>
     <BundleResource Include="Resources\header.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\browse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\desserts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\meats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pasta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sandwich.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\veggies.png" />
+  </ItemGroup>
 </Project>
